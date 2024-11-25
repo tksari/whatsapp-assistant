@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.1",
+    "node-fetch": "^2.7.0",
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
