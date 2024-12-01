@@ -15,6 +15,7 @@ First, create the project directory and clone the repository:
 # Create and configure project directory
 sudo mkdir -p /opt/whatsapp-command-buddy
 sudo chown -R $USER:$USER /opt/whatsapp-command-buddy
+sudo chmod 755 /opt/whatsapp-command-buddy
 
 # Clone the repository
 git clone https://github.com/tksari/whatsapp-command-buddy.git /opt/whatsapp-command-buddy
@@ -25,6 +26,15 @@ cd /opt/whatsapp-command-buddy
 
 #### Option A: Automated Installation
 
+#### ⚠️ WARNING - READ BEFORE INSTALLATION ⚠️
+
+This automated installation script will modify your system configuration. By proceeding, you:
+
+- **Must**   review ./scripts directory before running
+- **Should** backup your system
+- **Accept** full responsibility for all system changes
+
+**Note**: Run this script at your own risk!
 Use our installation script for a streamlined setup:
 
 ```bash
