@@ -94,10 +94,12 @@ npm install || {
 }
 
 log_info "Installing PM2..."
-npm install -g pm2 || {
+sudo npm install -g pm2 || {
    log_error "Failed to install PM2"
    exit 1
 }
+
+sudo chown -R $USER:$GROUP ~/.pm2
 
 log_info "Setting up environment file..."
 if [ -f "${PROJECT_ROOT}/.env.example" ]; then

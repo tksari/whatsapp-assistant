@@ -34,14 +34,6 @@ else
     log_info "No Chromium processes found"
 fi
 
-log_info "Cleaning Chrome lock files..."
-if [ -d "${PROJECT_ROOT}/src/storage/sessions" ]; then
-    find "${PROJECT_ROOT}/src/storage/sessions" -name "*.lock" -delete
-    log_success "Lock files cleaned"
-else
-    log_info "Storage directory not found"
-fi
-
 
 log_info "Restarting ${DISPLAY_NAME}..."
 pm2 start ${APP_NAME}
