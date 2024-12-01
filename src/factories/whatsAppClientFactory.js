@@ -9,9 +9,7 @@ export class WhatsAppClientFactory {
     }
 
     return new Client({
-      authStrategy: new LocalAuth({
-        dataPath: config.chrome.userDataDir,
-      }),
+      authStrategy: new LocalAuth(),
       puppeteer: {
         headless: config.chrome.puppeteer.headless,
         executablePath: config.chrome.puppeteer.executablePath,
