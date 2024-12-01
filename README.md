@@ -1,34 +1,72 @@
-# WhatsApp Auto-Reply Bot
+# WhatsApp Command Buddy
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green)
+![License](https://img.shields.io/badge/license-MIT-blue) ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green) ![whatsapp-web.js](https://img.shields.io/badge/whatsapp--web.js-latest-orange)
 
-## 🎯 Overview
-This bot was initially created for fun to handle auto-responses on WhatsApp. It's a simple yet effective solution that forwards WhatsApp messages and handles automated responses, with the ability to monitor these messages through Telegram or Discord. While originally designed as a "busy message" or "away message" bot, it can be adapted for various purposes.
+## 🚀 QUICK START
 
-⚠️ **Disclaimer**: This is an experimental project, created for educational and entertainment purposes. Use it responsibly and at your own risk.
+- [📖 Installation Guide](docs/installation.md)
+- [📝 Command Reference](docs/command-guide.md)
 
-## 🚀 Features
-- **Smart Auto-Reply**: Automatically responds to incoming WhatsApp messages
-- 📡 **Log Integration**: Forwards all messages, system events and logs directly to Telegram/Discord channels, providing complete monitoring capabilities with real-time message synchronization- **Contact Info**: Displays sender's name, number, and business status
-- **Customizable**: Easy to modify for different use cases
-- **Headless Mode**: Runs silently in the background
+### Overview
 
-## 💡 Potential Use Cases
-- **Auto-Response Bot**: For when you're away or busy
-- **Message Forwarder**: Forward WhatsApp messages to Telegram
-- **Business Hour Notifier**: Inform contacts about your working hours
-- **Platform Transition**: Notify contacts about moving to a different platform
-- **AI Integration**: Could be extended with AI for smarter responses *(not implemented)*
-- **Data Collection**: Can be modified to collect message statistics *(optional)*
+WhatsApp Command Buddy is an advanced WhatsApp assistant that combines automated responses with AI capabilities. Built on [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js), it features intelligent message handling, AI-driven responses, and multi-platform monitoring through Discord and Telegram.
 
-## 🛠 Installation
+### ⚠️ Important Disclaimer
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/whatsapp-auto-reply-bot.git
-cd whatsapp-auto-reply-bot
+This project is not affiliated, associated, authorized, endorsed by, or officially connected with WhatsApp or its subsidiaries. "WhatsApp" as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
-# Run installer
-chmod +x whatsapp-bot-installer.sh
-sudo ./whatsapp-bot-installer.sh
+### ⚡ Important Notice
+
+- Using unofficial clients may risk account blocking
+- Not officially supported by WhatsApp
+- Experimental project for educational purposes
+- Use at your own risk
+
+### Core Features
+
+**Messaging & AI**
+
+- Smart auto-reply system with custom messages
+- AI-powered message analysis and responses
+- Group chat support with mention detection
+- Message forwarding to Discord/Telegram
+- Business info display (name, number, status)
+
+**Security & Management**
+
+- Phone number validation and management
+- Group message authentication via @bot
+- Access control system
+- Command authorization
+- Real-time logging and monitoring
+
+### Upcoming Features
+
+**Enhanced AI Context**
+
+- SQLite integration for storing recent messages
+- Improved conversation handling
+- Better conversation understanding
+- Advanced message analysis
+- Better group chat management
+
+**Enhanced Commands & Features**
+
+- Custom command creation system
+- Advanced command shortcuts
+- Command history tracking
+- Command scheduling features
+- Permission-based command groups
+- Multiple AI provider switching
+
+### Security Features
+
+- Phone number validation
+- Message verification
+- Group authentication
+- Mention verification
+- Access control
+
+### License
+
+MIT License - see [LICENSE](LICENSE)

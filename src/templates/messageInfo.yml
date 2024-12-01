@@ -1,0 +1,6 @@
+message: |
+  📱 New WhatsApp Message:
+  👤 From: {contact} {isBusiness}
+  📞 Number: {from}
+  💬 Message: {body}
+  ⏰ Date: {datetime}

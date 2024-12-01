@@ -1,0 +1,10 @@
+message: |
+  📱 Assistant Commands
+
+  AI Commands:
+  !ai text - General chat with AI
+  !sum text - Generate summary
+  !analyze text - Generate analysis
+  !idea topic - Generate ideas
+
+  Use !help to see this message again

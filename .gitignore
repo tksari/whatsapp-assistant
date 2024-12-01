@@ -3,3 +3,6 @@
 .env
 .idea
 node_modules
+src/storage/*
+!src/storage/.gitkeep
+.history

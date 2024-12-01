@@ -1,0 +1,15 @@
+message: |
+  📱 Admin Commands
+
+  Settings:
+  !auto on/off [message] - Toggle auto reply with optional message
+  !ai-public on/off - Toggle public AI access
+
+  Whitelsit Phone Number Commands:
+  !allow  @447xxxxxxxxx - Add number to allowed list
+  !remove @447xxxxxxxxx - Remove number from list
+  !remove all - Remove all numbers
+  !allowed - List all allowed numbers
+  !status - Show current settings
+
+  Use !help to see this message again
